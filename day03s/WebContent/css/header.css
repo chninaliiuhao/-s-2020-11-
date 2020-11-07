@@ -1,0 +1,92 @@
+.header{
+	height: 100px;
+	border-bottom: 2px solid #FD8712;
+}
+.header-main{
+	margin-top: 15px;
+	height: 75px;
+}
+.logo{
+	float: left;
+	margin-top: 20px;
+}
+.search{
+	width: 450px;
+	height: 40px;
+	margin: 20px 40px;
+	float: left;
+}
+.search div{
+	float: left;
+}
+.category{
+	border: 1px solid #E6E6E6;
+	padding: 10px 10px 10px 5px;
+	background-color: #fff;
+	position: relative;
+	z-index: 999;
+}
+.category:hover>#menu-list{
+	display: block;
+}
+#menu-list li{
+	line-height: 36px;
+	text-align: center;
+	background-color: #fff;
+}
+#menu-list li a:hover{
+	color: #D0021B;
+}
+.down-more{
+	display: inline-block;
+	width: 9px;
+	height: 5px;
+	background-image: url(../img/h_hd2.png);
+	background-position: -5px -7px;
+}
+.category>#menu-list{
+	display: none;
+}
+.search-txt{
+	width: 300px;
+	height: 35px;
+	border: 1px solid #E6E6E6;
+	outline: none;
+	padding-left: 10px;
+	margin-left:30px;
+}
+.sub-img{
+	width: 51px;
+	height: 39px;
+	background-position: 0 -100px;
+	background-image: url(../img/h_hd2.png);
+	border: none;
+	cursor: pointer;
+}
+.sub-img:hover{
+	background-position: 0 -150px;
+}
+.header-link{
+	float: right;
+	margin-top: 50px;
+}
+.login,.index,.service,.account{
+	color: #666;
+	margin-right: 2px;				
+}
+.login:hover,.index:hover,.service:hover,.account:hover{
+	color: #FD8712;
+}
+.header-link>.down-icon{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-top: 4px solid #bababa;
+    position: relative;
+    top: 2px;
+}
+.header-link>.line{
+	margin: 0 10px;
+	color: #E6E6E6;
+}
